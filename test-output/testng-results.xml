@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11147" started-at="2018-02-05T16:26:13Z" finished-at="2018-02-05T16:26:24Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="11147" started-at="2018-02-05T16:26:13Z" finished-at="2018-02-05T16:26:24Z">
+      <class name="com.chiselon.classifieds.Regression.TC001">
+        <test-method status="PASS" signature="bm(java.lang.String)[pri:0, instance:com.chiselon.classifieds.Regression.TC001@1a52fbd]" name="bm" is-config="true" duration-ms="6394" started-at="2018-02-05T21:56:13Z" finished-at="2018-02-05T21:56:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="method1()[pri:0, instance:com.chiselon.classifieds.Regression.TC001@1a52fbd]" name="method1" duration-ms="4729" started-at="2018-02-05T21:56:19Z" finished-at="2018-02-05T21:56:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="SKIP" signature="geturl(org.openqa.selenium.WebDriver, java.lang.String)[pri:0, instance:com.chiselon.classifieds.Regression.TC001@1a52fbd]" name="geturl" duration-ms="0" started-at="2018-02-05T21:56:24Z" finished-at="2018-02-05T21:56:24Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method geturl requires 2 parameters but 0 were supplied in the @Test annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method geturl requires 2 parameters but 0 were supplied in the @Test annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:191)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:127)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:376)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geturl -->
+      </class> <!-- com.chiselon.classifieds.Regression.TC001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
